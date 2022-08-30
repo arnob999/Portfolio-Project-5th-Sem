@@ -1,0 +1,93 @@
+body {
+    font-family: 'Merriweather', serif;
+    background-color: black;
+}
+
+.red-text {
+    color: rgba(255, 0, 0, 1);
+}
+
+.red-bg {
+    background-color: rgba(255, 0, 0, 0.925);
+}
+
+.myPhoto {
+    width: 60%;
+}
+
+.mainBanner:hover .myPhoto img {
+    transition: 1s ease-in-out;
+    transform: translateX(150px);
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 20px gray;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.hire:hover {
+
+    background-color: black;
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.87);
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.top-banner {
+    background-image: url(image/bg1.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service1:hover,
+.service2:hover,
+.service3:hover,
+.service4:hover,
+.service5:hover,
+.service6:hover,
+.skill1:hover,
+.skill2:hover,
+.skill3:hover {
+    background-color: red !important;
+    color: white;
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.skills {
+    background-image: url(image/bg32.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.skillGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25%;
+    row-gap: 100px;
+}
+
+footer {
+    background-color: lightgrey;
+}
+
+.touch {
+    background-color: lightgray;
+}
